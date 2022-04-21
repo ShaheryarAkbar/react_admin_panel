@@ -1,0 +1,118 @@
+.navbar {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    font-size: 15px;
+    background-color: white;
+
+    .wrapper {
+        width: 100%;
+        justify-content: space-between;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+
+        .search {
+
+            display: flex;
+            align-items: center;
+
+            .searchtext {
+                display: flex;
+                align-items: center;
+                border: 1 px solid lightgray;
+                padding: 9px;
+                background-color: lightgray;
+                border-radius: 2%;
+                padding-left: 10px;
+                
+
+                .icon {
+                    font-size: 18px;
+                    color: gray;
+                }
+
+                input {
+                    border: none;
+                    outline: none;
+                    background: transparent;
+                    width: 200px;
+                    padding-left: 10px;
+                    border: none;
+                }
+            }
+
+            .searchbtn {
+                display: flex;
+                align-items: center;
+
+                button {
+                    background-color: blue;
+                    color: lightgray;
+                    padding: 10px 15px 10px 15px;
+                    border: none;
+                    border-radius: 2%;
+                    size: 20px;
+                    cursor: pointer;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .items {
+            display: flex;
+            align-items: center;
+
+            .item {
+                display: flex;
+                align-items: center;
+                size: 15px;
+                padding-left: 35px;
+                position: relative;
+                cursor: pointer;
+
+                .icon {
+                    color: blue;
+                }
+
+                .icons {
+                    color: gray;
+                }
+
+                p {
+                    margin-left: 10px;
+                    font-size: smaller;
+                }
+
+                img {
+                    height: 30px;
+                    width: 30px;
+                    border-radius: 50%;
+                }
+
+                span {
+                    align-items: center;
+                    margin-left: 10px;
+                    font-size: large;
+                    color: gray;
+                } 
+                
+                .counter {
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: gray;
+                    font-size: 6px;
+                    font-weight: bold;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                }
+            }
+        }
+    }
+}

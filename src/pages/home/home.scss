@@ -1,0 +1,22 @@
+.home {
+    display: flex;
+    background-color: lightgray;
+
+    .homeContainer {
+        flex: 6;
+
+        .widgets {
+            background-color: white;
+            display: flex;
+            margin: 15px;
+            gap: 20px;
+        }
+
+        .charts {
+            background-color: white;
+            display: flex;
+            margin: 15px;
+            gap: 20px;
+        }
+    }
+}

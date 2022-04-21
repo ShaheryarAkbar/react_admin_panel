@@ -1,0 +1,77 @@
+.sidebar {
+    flex: 1;
+    background-color: blue;
+    border-right: 0.5px solid lightgray;
+    min-height: 100vh;
+    color: white;
+
+    .top {
+        display: flex;
+        height: 60px;
+        align-items: center;
+        justify-content: center;
+
+        .logo {
+            font-size: 30px;
+            font-weight: bold;
+        }
+    }
+
+    hr {
+        height: 0;
+        border: 0.2px solid lightgray;
+        width: 88%;
+    }
+
+    .center {
+        padding-left: 10px;
+        margin-top: 20px;
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                display: flex;
+                align-items: center;
+                padding: 10px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: lightgray;
+                    border-radius: 250px 0px 0px 250px;
+                }
+
+                &:hover .icon {
+                    color: blue;
+                }
+
+                &:hover span {
+                    color: blue;
+                }
+
+                .icon {
+                    font-size: 22px;
+                    color: aqua;
+                }
+
+                span {
+                    color: aqua;
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+
+    .bottom {
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
