@@ -22,16 +22,16 @@ function App() {
         <Routes>
           <Route path='/'>
             <Route index element={<Home />} />
-            <Route path='/customers' element={<Customers />} />
-            <Route path='/enquiries' element={<Enquiries />} />
-            <Route path='/invoices' element={<Invoices />} />
-            <Route path='/logout' element={<Logout />} />
-            <Route path='/mechanics' element={<Mechanics />} />
-            <Route path='/notifications' element={<Notifications />} />
-            <Route path='/parts' element={<Parts />} />
-            <Route path='/services' element={<Services />} />
-            <Route path='/settings' element={<Settings />} />
-            <Route path='/tasks' element={<Tasks />} />
+            <Route path='customers' element={<Customers />} />
+            <Route path='enquiries' element={<Enquiries />} />
+            <Route path='invoices' element={<Invoices />} />
+            <Route path='logout' element={<Logout />} />
+            <Route path='mechanics' element={<Mechanics />} />
+            <Route path='notifications' element={<Notifications />} />
+            <Route path='parts' element={<Parts />} />
+            <Route path='services' element={<Services />} />
+            <Route path='settings' element={<Settings />} />
+            <Route path='tasks' element={<Tasks />} />
           </Route>
         </Routes>
       </BrowserRouter>
